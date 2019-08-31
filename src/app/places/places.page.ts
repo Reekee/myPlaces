@@ -7,7 +7,6 @@ import { Router, NavigationExtras } from '@angular/router';
   styleUrls: ['./places.page.scss'],
 })
 export class PlacesPage implements OnInit {
-
   places = [
     {
       title: "น้ำตกห้วยแม่ขมิ้น",
@@ -28,6 +27,9 @@ export class PlacesPage implements OnInit {
   constructor(
     private router: Router
   ) { }
+  ngOnInit() {
+
+  }
   goToPlace(place) {
     let navigationExtras: NavigationExtras = {
       queryParams: {
