@@ -17,6 +17,11 @@ export class AppComponent {
       icon: 'home'
     },
     {
+      title: 'สถานที่ท่องเที่ยว',
+      url: '/places',
+      icon: 'map'
+    },
+    {
       title: 'เกี่ยวกับ',
       url: '/about',
       icon: 'help'

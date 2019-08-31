@@ -17,6 +17,7 @@ const routes: Routes = [
   },
   { path: 'place', loadChildren: './place/place.module#PlacePageModule' },
   { path: 'about', loadChildren: './about/about.module#AboutPageModule' },
+  { path: 'places', loadChildren: './places/places.module#PlacesPageModule' },
 ];
 
 @NgModule({
